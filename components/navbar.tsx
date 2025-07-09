@@ -136,7 +136,7 @@ export function Navbar() {
                     whileHover={{ scale: 1.03, color: "#F59E0B" }}
                     transition={{ duration: 0.2 }}
                   >
-                    <span className="inline xs:hidden">Zc</span>
+                    <span className="inline xs:hidden">Zion</span>
                     <span className="hidden xs:inline">Zion Constrution</span>
                   </motion.span>
                   <span className="text-[10px] sm:text-xs text-muted-foreground hidden xs:inline">
