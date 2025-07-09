@@ -11,7 +11,6 @@ import { ScrollToTop } from "@/components/scroll-to-top"
 
 import "@/app/globals.css"
 
-// Initialize the fonts with display swap for better performance
 const montserrat = Montserrat({
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700", "800"],
@@ -34,7 +33,7 @@ export default function ClientLayout({
   const pathname = usePathname()
 
   return (
-    <html lang="en" className={`${montserrat.variable} ${poppins.variable}`} suppressHydrationWarning>
+    <html lang="pt-BR" className={`${montserrat.variable} ${poppins.variable}`} suppressHydrationWarning>
       <body className={`${poppins.className} antialiased`}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
           <div className="flex min-h-screen flex-col">
